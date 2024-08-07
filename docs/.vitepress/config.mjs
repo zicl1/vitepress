@@ -2,13 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  lang: 'zh-CN',
+  title: "Zichen 文档",
   description: "A VitePress Site",
+  base: '/vitepress/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '软件', link: '/markdown-examples' },
+      { text: '编程', link: '/api-examples' }
     ],
 
     sidebar: [
@@ -22,7 +25,9 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/zicl1/vitepress' },
+      { icon: 'twitter', link: 'https://github.com/zicl1/vitepress' },
+      { icon: 'instagram', link: 'https://github.com/zicl1/vitepress' }
     ]
   }
 })
