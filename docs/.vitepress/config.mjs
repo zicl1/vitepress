@@ -43,6 +43,13 @@ export default defineConfig({
             ]
           }
         ]
+      },
+      {
+        text: '1.0.1',
+        items: [
+          { text: '1.0.1', link: 'https://github.com/zicl1/vitepress' },
+          { text: '1.0.0', link: 'https://github.com/zicl1/vitepress/tree/59b48631c427f1405aac2c264821dea3bcbcd12e' }
+        ]
       }
     ],
 
