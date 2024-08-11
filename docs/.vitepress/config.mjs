@@ -23,11 +23,11 @@ export default defineConfig({
       { text: '软件', link: '/software/nvm' },
       { text: '开发文档', link: '/dev-document/linux-adds-environment-variables' },
       {
-        text: '1.0.1',
+        text: '1.1.0',
         items: [
           {
             text: '更新日志',
-            items: [{ text: '1.0.1', link: 'https://github.com/zicl1/vitepress/blob/main/CHANGELOG.md' } ]
+            items: [{ text: '1.1.0', link: 'https://github.com/zicl1/vitepress/blob/main/CHANGELOG.md' } ]
           },
           {
             text: '官网',
