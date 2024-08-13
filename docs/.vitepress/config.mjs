@@ -65,6 +65,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Linux 添加环境变量', link: '/dev-document/linux-adds-environment-variables' }
+            ,{ text: 'Linux 创建软链接', link: '/dev-document/creating-soft-links-in-linux' }
           ]
         },
         {
