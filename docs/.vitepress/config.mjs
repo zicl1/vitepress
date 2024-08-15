@@ -58,6 +58,7 @@ export default defineConfig({
           collapsed: true, // 可折叠的侧边栏组，false 展开
           items: [
             { text: 'nvm', link: '/software/nvm' }
+            ,{ text: '统信服务器', link: '/software/uniontech' }
           ]
         },
         {
